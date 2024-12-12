@@ -121,7 +121,7 @@ fun ShowAlertOptions(canShowNotificationOptions: MutableState<Boolean>) {
             verticalArrangement = Arrangement.Center,
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
-            Button(onClick = { NotificationNotifier.postCriticalNotification(0.8f) }) {
+            Button(onClick = { NotificationNotifier.postCriticalNotification(1.0f) }) {
                 Text("Critical alert notification")
             }
 
